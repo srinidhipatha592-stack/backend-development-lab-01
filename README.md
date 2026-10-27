@@ -91,27 +91,18 @@ The `/anything` path is an example of an unknown route. Other undefined paths sh
 
 ## Screenshots
 
-1. Home Route
+### 1. Home Route
+![Home route response](home.png)
 
-Displays the welcome message.
+### 2. About Route
+![About route response](about.png)
 
+### 3. Time Route
+![Time route response](time.png)
 
+### 4. Unknown Route
+![404 route response](not-found.png)
 
-2. About Route
-
-Displays the student's name and section in JSON format.
-
-
-
-3. Time Route
-
-Displays the current date and time.
-
-
-
-4. Unknown Route
-
-Displays the 404 Page Not Found response.
 
 ## HTTP Status Codes
 
