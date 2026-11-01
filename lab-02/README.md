@@ -72,7 +72,7 @@ Parameterized queries using `?` placeholders are used to safely pass user input 
 ## Screenshots
 
 ### Get All Books
-![Get All Books](screenshots/1-get-all-books.png)
+![Get All Books](./screenshots/1-get-all-books.png)
 
 ### Get One Book
 ![Get One Book](./screenshots/2-get-book.png)
