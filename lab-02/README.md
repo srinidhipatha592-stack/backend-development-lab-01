@@ -1,45 +1,45 @@
 # Lab 02: SQLite Database and CRUD Routes
 
 ## Student Details
-- **Name:** Patha Srinidhi
-- **Registration Number:** 252U1R9121
-- **Section:** CSE GEN-AI (111, 2B)
+
+- Name: PATHA SRINIDHI
+- Registration Number: 252U1R9121
+- Section: CSE-GEN-AI 2B 111
+- Course: Backend Development Fundamentals
+- Lab Number: 02
 
 ## Objective
-To create a SQLite database and implement CRUD operations using Node.js, Express.js and SQLite.
+
+To connect a SQLite database with a Node.js and Express application and implement CRUD operations using REST API routes.
 
 ## Technologies Used
+
 - Node.js
 - Express.js
 - SQLite
 - sqlite3
-- JavaScript
+- sqlite
 - Nodemon
 - Postman
 
 ## Installation and Execution
 
-1. Install dependencies:
+1. Open the lab-02 folder in the terminal.
+2. Install dependencies:
 
-```bash
-npm install
-```
+   npm install
 
-2. Start the development server:
+3. Start the server:
 
-```bash
-npm run dev
-```
+   npm run dev
 
-3. Server URL:
+4. Server URL:
 
-```text
-http://localhost:3001
-```
+   http://localhost:3001
 
 ## Database Structure
 
-Table: `book`
+Table Name: book
 
 | Column | Data Type |
 |---|---|
@@ -49,42 +49,44 @@ Table: `book`
 | price | REAL |
 | pages | INTEGER |
 
-10 book records are stored in the database.
+10 book records are stored in the database using SQLite CLI.
 
 ## API Endpoints
 
 | Method | Endpoint | Description |
 |---|---|---|
-| GET | `/books/` | Get all books |
-| GET | `/books/:bookId/` | Get a book by ID |
-| POST | `/books/` | Add a new book |
-| PUT | `/books/:bookId/` | Update a book |
-| DELETE | `/books/:bookId/` | Delete a book |
-
-## Screenshots
-
-### 1. Get All Books
-![Get All Books](screenshots/1-get-all-books.png)
-
-### 2. Get One Book
-![Get One Book](screenshots/2-get-book.png)
-
-### 3. Add a Book
-![Add a Book](screenshots/3-post-books.png)
-
-### 4. Update a Book
-![Update a Book](screenshots/4-put-book.png)
-
-### 5. Delete a Book
-![Delete a Book](screenshots/5-delete-book.png)
-
-### 6. SQLite Database
-![SQLite Database](screenshots/6-sqlite-database.png)
+| GET | /books/ | Get all books |
+| GET | /books/:bookId/ | Get one book |
+| POST | /books/ | Add a new book |
+| PUT | /books/:bookId/ | Update a book |
+| DELETE | /books/:bookId/ | Delete a book |
 
 ## SQL Injection Prevention
 
-Parameterized queries using `?` placeholders are used to safely pass user input into SQL queries.
+Parameterized queries using ? placeholders are used to safely pass user input into SQL queries.
 
-## Conclusion
+## Screenshots
 
-Successfully created a SQLite database and implemented all five CRUD API endpoints using Node.js and Express.js. Tested the endpoints using Postman.
+### Get All Books
+![Get All Books](screenshots/1-get-all-books.png)
+
+### Get One Book
+![Get One Book](screenshots/2-get-book.png)
+
+### Add a Book
+![Add a Book](screenshots/3-post-books.png)
+
+### Update a Book
+![Update a Book](screenshots/4-put-book.png)
+
+### Delete a Book
+![Delete a Book](screenshots/5-delete-book.png)
+
+### SQLite Database Records
+![SQLite Database](screenshots/6-sqlite-database.png)
+
+## Deployment
+
+The application was tested locally using Postman.
+
+Deployment has not yet been completed. The Postman screenshots are provided as evidence of the working API endpoints.
