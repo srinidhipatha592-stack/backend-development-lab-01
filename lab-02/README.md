@@ -68,22 +68,22 @@ Parameterized queries using ? placeholders are used to safely pass user input in
 ## Screenshots
 
 ### Get All Books
-![Get All Books](screenshots/1-get-all-books.png)
+![Get All Books](./screenshots/1-get-all-books.png)
 
 ### Get One Book
-![Get One Book](screenshots/2-get-book.png)
+![Get One Book](./screenshots/2-get-book.png)
 
 ### Add a Book
-![Add a Book](screenshots/3-post-books.png)
+![Add a Book](./screenshots/3-post-books.png)
 
 ### Update a Book
-![Update a Book](screenshots/4-put-book.png)
+![Update a Book](./screenshots/4-put-book.png)
 
 ### Delete a Book
-![Delete a Book](screenshots/5-delete-book.png)
+![Delete a Book](./screenshots/5-delete-book.png)
 
 ### SQLite Database Records
-![SQLite Database](screenshots/6-sqlite-database.png)
+![SQLite Database](./screenshots/6-sqlite-database.png)
 
 ## Deployment
 
