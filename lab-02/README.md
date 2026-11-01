@@ -72,28 +72,22 @@ Parameterized queries using `?` placeholders are used to safely pass user input 
 ## Screenshots
 
 ### Get All Books
-
-![Get All Books](https://github.com/srinidhipatha592-stack/backend-development-lab-01/blob/main/lab-02/screenshots/1-get-all-books.png?raw=true)
+![Get All Books](https://raw.githubusercontent.com/srinidhipatha592-stack/backend-development-lab-01/main/lab-02/screenshots/1-get-all-books.png)
 
 ### Get One Book
-
-![Get One Book](./screenshots/2-get-book.png)
+![Get One Book](https://raw.githubusercontent.com/srinidhipatha592-stack/backend-development-lab-01/main/lab-02/screenshots/2-get-book.png)
 
 ### Add a Book
-
-![Add a Book](./screenshots/3-post-books.png)
+![Add a Book](https://raw.githubusercontent.com/srinidhipatha592-stack/backend-development-lab-01/main/lab-02/screenshots/3-post-books.png)
 
 ### Update a Book
-
-![Update a Book](./screenshots/4-put-book.png)
+![Update a Book](https://raw.githubusercontent.com/srinidhipatha592-stack/backend-development-lab-01/main/lab-02/screenshots/4-put-book.png)
 
 ### Delete a Book
-
-![Delete a Book](./screenshots/5-delete-book.png)
+![Delete a Book](https://raw.githubusercontent.com/srinidhipatha592-stack/backend-development-lab-01/main/lab-02/screenshots/5-delete-book.png)
 
 ### SQLite Database Records
-
-![SQLite Database](./screenshots/6-sqlite-database.png)
+![SQLite Database](https://raw.githubusercontent.com/srinidhipatha592-stack/backend-development-lab-01/main/lab-02/screenshots/6-sqlite-database.png)
 
 ## Deployment
 
