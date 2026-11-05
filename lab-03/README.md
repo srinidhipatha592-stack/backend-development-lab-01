@@ -230,9 +230,15 @@ http://localhost:3002/books/?min_price=300&max_price=500
 
 ## Deployment
 
-**Deployment Status:** Not deployed yet.
+## Deployment Status
 
-The API was tested locally using Node.js and Postman.
+The Lab 03 REST API is successfully deployed on Render.
+
+Live API URL:
+https://backend-development-lab-01-dpau.onrender.com
+
+Books Endpoint:
+https://backend-development-lab-01-dpau.onrender.com/books/
 
 ## Conclusion
 
